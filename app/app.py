@@ -3,8 +3,7 @@ import os
 import streamlit as st
 import chromadb
 from openai import OpenAI
-from get_summary_tool import get_summary_by_title  # asigură-te că fișierul e în project-root/
-                                                   # și data/book_summaries.json există
+from get_summary_tool import get_summary_by_title  
 
 CHROMA_PATH = "chroma_db"
 COLLECTION_NAME = "book_summaries"
